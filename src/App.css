@@ -1,24 +1,17 @@
-.App {
-  text-align: center;
+.editor {
+    border-radius: .28571429rem;
+    border: 1px solid rgba(34, 36, 38, .15);
+    padding: 15px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.my-button {
+    margin-top: 20px !important;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.error {
+    border-color: #db2828 !important;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.green {
+    color: #21ba45;
 }
